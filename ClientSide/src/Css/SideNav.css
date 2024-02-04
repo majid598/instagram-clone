@@ -1,0 +1,53 @@
+.side-nav {
+    height: 100vh;
+    width: 17rem;
+    background-color: #fff;
+    padding: 2rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5325;
+    border-right: 2px solid var(--border-color);
+    transition: all 0.2s ease-in;
+}
+
+.side-nav li span {
+    font-size: 1.3rem;
+    color: rgb(79, 79, 79);
+}
+
+.side-nav li a {
+    display: inline-block;
+    width: 100%;
+    padding: .5rem;
+}
+
+.side-nav li .uil {
+    font-size: 2rem;
+}
+
+.side-nav .profile-list {
+    display: flex;
+    align-items: center;
+}
+
+.side-nav .uil-plus {
+    border: 3px solid;
+    border-radius: 0.5rem;
+    font-size: 1.5rem !important;
+    height: 10px;
+}
+
+.side-nav li a:hover,
+.side-nav li button:hover {
+    background-color: #efefef9b !important;
+    border-radius: 5rem;
+    transform: scale(1.01);
+    transition: all .3s ease-in;
+}
+
+.side-nav li button {
+    width: 100%;
+    text-align: left;
+    padding: .5rem;
+}

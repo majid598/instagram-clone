@@ -1,0 +1,63 @@
+.container-create {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    /* background-color: black; */
+    z-index: 4324324;
+}
+body {
+}
+.closeBtn {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    z-index: 43243245;
+    font-size: 3rem;
+    cursor: pointer;
+    color: white;
+}
+.box {
+    background-color: #fff;
+    width: 30vw;
+    border-radius: .3rem;
+    margin: auto;
+    height: 75vh;
+}
+.box h4 {
+    text-align: center;
+    padding: .5rem 0;
+    color: rgb(92, 92, 92);
+    border-bottom: 1.5px solid var(--border-color);
+}
+
+.small-box {
+    display: flex;
+    line-height: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.box .btn{
+    width: 40%;
+}
+input[type="file"]::-webkit-file-upload-button {
+    width: 110%;
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 3vh;
+    margin: 0%;
+}

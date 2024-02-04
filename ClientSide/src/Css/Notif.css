@@ -1,0 +1,49 @@
+.notif-side {
+    position: fixed;
+    left: 4.6rem;
+    width: 25rem;
+    height: 100vh;
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: var(--shadow-light);
+    padding: 1rem;
+    transition: all 0.5s ease-in;
+}
+.little-side-nav {
+    width: 4.6rem;
+    background-color: #fff;
+    padding: 1.3rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 2px solid var(--border-color);
+    transition: all 0.2s ease-in;
+}
+.notifs {
+    overflow: auto;
+    height: 100%;
+}
+.notifs::-webkit-scrollbar {
+    width: 0;
+}
+.little-side-nav li span {
+    display: none;
+}
+.little-side-nav .heading-logo {
+    display: none;
+}
+.little-side-nav li .uil {
+    font-size: 1.77rem;
+}
+
+@keyframes slide {
+    0% {
+        left: -50%;
+    }
+    50% {
+        left: -0%;
+    }
+    100% {
+        left: 4.6rem;
+    }
+}

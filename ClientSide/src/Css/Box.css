@@ -1,0 +1,35 @@
+.box__small {
+    width: 25%;
+    margin: auto;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    box-shadow: var(--shadow-medium);
+    background-color: #fff;
+}
+
+.box__container {
+    overflow: scroll;
+    height: 90%;
+}
+
+.box__container::-webkit-scrollbar {
+    width: 0;
+}
+
+.box__small h3 {
+    padding: .5rem 0;
+    color: rgb(92, 92, 92);
+    border-bottom: 1.5px solid var(--border-color);
+}
+
+.box__small .closeBtn {
+    right: 0rem;
+    top: 0rem;
+    font-size: 2rem;
+}
+
+/* .box__container{
+
+} */

@@ -1,0 +1,28 @@
+.profile__container {
+    width: 60%;
+    margin: auto;
+    margin-left: 28rem;
+    /* border: 2px solid black; */
+}
+
+.profile__img {
+    width: 30%;
+}
+
+.details {
+    width: 50%;
+    line-height: 1.5rem;
+}
+
+hr {
+    background-color: rgb(207 207 207);
+    height: 1.8px;
+    border-radius: 5rem;
+}
+
+.user__post_image {
+    width: 30%;
+}
+.user__post_image img{
+    width: 100%;
+}

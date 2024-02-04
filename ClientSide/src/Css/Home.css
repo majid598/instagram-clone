@@ -1,0 +1,41 @@
+.home {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding-left: 30%;
+    /* position: absolute;
+    top: 3rem;
+    z-index: -53; */
+}
+.home-left {
+    width: 51%;
+}
+.home-right {
+    width: 30%;
+}
+
+.suggestions .user-name {
+    font-size: 13px;
+}
+.suggestions .account-name {
+    font-size: 15px;
+}
+.user-name {
+    font-weight: 500;
+}
+.user-about {
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+}
+.post-about {
+    line-height: 1.6rem;
+}
+.comment-input {
+    border: none;
+    outline: none;
+}
+.comment {
+    border-top: 1px solid rgb(219, 219, 219);
+}
+.home-right .bottom-bar {
+    justify-content: start;
+}
